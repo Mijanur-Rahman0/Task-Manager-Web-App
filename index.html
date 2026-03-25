@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        li {
+            display: flex;
+            justify-content: space-between;
+            background: #eee;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f4f4f4]">
+    <section class="bg-[#fff] w-[350px] my-[100px] mx-auto p-5 rounded-xl shadow-md">
+        <h1 class="text-center mb-2">📝 Todo App</h1>
+
+        <div class="flex gap-2.5">
+            <input type="text" name="" class="flex-1 border border-red-200 rounded-sm p-2.5" id="taskInput"
+                placeholder="Enter a task..">
+            <button class="p-2.5 cursor-pointer border border-red-200 rounded-sm" id="addBtn">Add</button>
+
+        </div>
+        <ul class="list-none mt-5" id="taskList"></ul>
+    </section>
+
+    <script src="./js/todo.js"></script>
+</body>
+
+</html>
