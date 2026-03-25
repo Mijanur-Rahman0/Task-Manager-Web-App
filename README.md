@@ -17,7 +17,7 @@ A simple and interactive Todo App built using JavaScript, HTML, and CSS.
 - Browser LocalStorage
 
 ## 📸 Screenshot
-(Add a screenshot here later)
+![App Screenshot](Todo-web-app.png)
 
 ## 🔗 Live Demo
 [(Add your Netlify/Vercel link here if deployed)](https://mijanur-rahman0.github.io/Task-Manager-Web-App/)
